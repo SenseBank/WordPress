@@ -2,8 +2,8 @@
 
 define('PAYMENT_SENSEBANK_PAYMENT_NAME', 'Sense Bank UA');
 
-define('PAYMENT_SENSEBANK_PROD_URL' , 'https://pay.sensebank.com.ua/ml/v1/payment/'); //production
-define('PAYMENT_SENSEBANK_TEST_URL' , 'https://sand.sensebank.com.ua/ml/v1/payment/'); //test/ sandbox URL
+define('PAYMENT_SENSEBANK_PROD_URL' , 'https://pay.sensebank.com.ua/payment/rest/'); //production
+define('PAYMENT_SENSEBANK_TEST_URL' , 'https://sand.sensebank.com.ua/payment/rest/'); //test/ sandbox URL
 
 define('PAYMENT_SENSEBANK_ENABLE_LOGGING', true);
 define('PAYMENT_SENSEBANK_ENABLE_CART_OPTIONS', false);

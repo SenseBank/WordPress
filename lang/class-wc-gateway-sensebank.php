@@ -358,6 +358,7 @@ class WC_Gateway_PaymentSensebank extends WC_Payment_Gateway
         }
         return false;
     }
+    
     public function process_payment($order_id)
     {
         $order = new WC_Order($order_id);
