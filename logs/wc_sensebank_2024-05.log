@@ -1,0 +1,195 @@
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 08:49:55
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST: _sendGatewayData]: https://sand.sensebank.com.ua/payment/rest/register.do
+ body: "userName=ROMA1-api&password=1&amount=100&jsonParams=%7B%22CMS%22%3A%22Wordpress+6.5.3+%2B+woocommerce+version%3A+8.8.3%22%2C%22Module-Version%22%3A%22%22%2C%22email%22%3A%22asdsd%40sassa.as%22%2C%22phone%22%3A%22123123123%22%2C%22payerFirstName%22%3A%22we12%22%2C%22payerLastName%22%3A%22qwe12xc%22%2C%22postAddress%22%3A%22adasdasdasd%22%2C%22payerCity%22%3A%22we14ascs%22%2C%22payerState%22%3A%22UA07%22%2C%22payerPostalCode%22%3A%2212312%22%2C%22payerCountry%22%3A%22UA%22%7D&orderNumber=117_1716367795&returnUrl=http%3A%2F%2Flocalhost%2Fwordpress%2Fwc-api%2Fsensebank%3Faction%3Dresult%26order_id%3D117%26orderNumber%3D117_1716367795&clientId=3a35d8f2f5d650ea670175f29b1c579c"
+ headers: ["CMS: Wordpress 6.5.3 + woocommerce version: 8.8.3","Module-Version: "]
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 08:49:56
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST]: https://sand.sensebank.com.ua/payment/rest/register.do: 
+DATA: Array
+(
+    [userName] => ROMA1-api
+    [password] => **removed from log**
+    [amount] => 100
+    [jsonParams] => {"CMS":"Wordpress 6.5.3 + woocommerce version: 8.8.3","Module-Version":"","email":"asdsd@sassa.as","phone":"123123123","payerFirstName":"we12","payerLastName":"qwe12xc","postAddress":"adasdasdasd","payerCity":"we14ascs","payerState":"UA07","payerPostalCode":"12312","payerCountry":"UA"}
+    [orderNumber] => 117_1716367795
+    [returnUrl] => http://localhost/wordpress/wc-api/sensebank?action=result&order_id=117&orderNumber=117_1716367795
+    [clientId] => 3a35d8f2f5d650ea670175f29b1c579c
+)
+
+[RESPONSE]: {"orderId":"58f761a2-8cb6-4e0a-91a8-72ca6afc92f4","formUrl":"https://sand.sensebank.com.ua/payment/merchants/sensepay/payment.html?mdOrder=58f761a2-8cb6-4e0a-91a8-72ca6afc92f4&language=en"}
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 08:50:38
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST: _sendGatewayData]: https://sand.sensebank.com.ua/payment/rest/getOrderStatusExtended.do
+ body: "userName=ROMA1-api&password=1&orderNumber=117_1716367795"
+ headers: []
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 08:50:38
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST gOSE]: https://sand.sensebank.com.ua/payment/rest/getOrderStatusExtended.do: Array
+(
+    [userName] => ROMA1-api
+    [password] => **removed from log**
+    [orderNumber] => 117_1716367795
+)
+
+[RESPONSE]: {"errorCode":"0","errorMessage":"Успешно","orderNumber":"117_1716367795","orderStatus":2,"actionCode":0,"actionCodeDescription":"","amount":100,"currency":"980","date":1716367812661,"ip":"91.215.70.40","merchantOrderParams":[{"name":"payerCity","value":"we14ascs"},{"name":"phone","value":"123123123"},{"name":"additionalText","value":"SUCCESSFUL TXN"},{"name":"payerFirstName","value":"we12"},{"name":"CMS","value":"Wordpress 6.5.3 + woocommerce version: 8.8.3"},{"name":"payerPostalCode","value":"12312"},{"name":"postAddress","value":"adasdasdasd"},{"name":"payerCountry","value":"UA"},{"name":"email","value":"asdsd@sassa.as"},{"name":"payerLastName","value":"qwe12xc"},{"name":"payerState","value":"UA07"}],"attributes":[{"name":"mdOrder","value":"58f761a2-8cb6-4e0a-91a8-72ca6afc92f4"}],"cardAuthInfo":{"expiration":"202812","cardholderName":"ASDASD","approvalCode":"595479","paymentSystem":"MASTERCARD","pan":"535557**6636"},"bindingInfo":{"clientId":"3a35d8f2f5d650ea670175f29b1c579c","bindingId":"931e0285-c270-4810-973f-02570a3e3734"},"authDateTime":1716367827267,"terminalId":"E0000025","authRefNum":"010685954790","paymentAmountInfo":{"paymentState":"DEPOSITED","approvedAmount":100,"depositedAmount":100,"refundedAmount":0,"feeAmount":0},"bankInfo":{"bankName":"PUBLIC JOINT STOCK COMPANY \"AL","bankCountryCode":"804","bankCountryName":"804"},"chargeback":false,"paymentWay":"CARD_BINDING"}
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 08:53:36
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST: _sendGatewayData]: https://sand.sensebank.com.ua/payment/rest/register.do
+ body: "userName=ROMA1-api&password=1&amount=100&jsonParams=%7B%22CMS%22%3A%22Wordpress+6.5.3+%2B+woocommerce+version%3A+8.8.3%22%2C%22Module-Version%22%3A%22%22%2C%22email%22%3A%22asdsd%40sassa.as%22%2C%22phone%22%3A%22123123123%22%2C%22payerFirstName%22%3A%22we12%22%2C%22payerLastName%22%3A%22qwe12xc%22%2C%22postAddress%22%3A%22adasdasdasd%22%2C%22payerCity%22%3A%22we14ascs%22%2C%22payerState%22%3A%22UA07%22%2C%22payerPostalCode%22%3A%2212312%22%2C%22payerCountry%22%3A%22UA%22%7D&orderNumber=118_1716368016&returnUrl=http%3A%2F%2Flocalhost%2Fwordpress%2Fwc-api%2Fsensebank%3Faction%3Dresult%26order_id%3D118%26orderNumber%3D118_1716368016&clientId=3a35d8f2f5d650ea670175f29b1c579c"
+ headers: ["CMS: Wordpress 6.5.3 + woocommerce version: 8.8.3","Module-Version: "]
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 08:53:36
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST]: https://sand.sensebank.com.ua/payment/rest/register.do: 
+DATA: Array
+(
+    [userName] => ROMA1-api
+    [password] => **removed from log**
+    [amount] => 100
+    [jsonParams] => {"CMS":"Wordpress 6.5.3 + woocommerce version: 8.8.3","Module-Version":"","email":"asdsd@sassa.as","phone":"123123123","payerFirstName":"we12","payerLastName":"qwe12xc","postAddress":"adasdasdasd","payerCity":"we14ascs","payerState":"UA07","payerPostalCode":"12312","payerCountry":"UA"}
+    [orderNumber] => 118_1716368016
+    [returnUrl] => http://localhost/wordpress/wc-api/sensebank?action=result&order_id=118&orderNumber=118_1716368016
+    [clientId] => 3a35d8f2f5d650ea670175f29b1c579c
+)
+
+[RESPONSE]: {"orderId":"18eefbc9-92d0-419f-870c-ae68ed52c216","formUrl":"https://sand.sensebank.com.ua/payment/merchants/sensepay/payment.html?mdOrder=18eefbc9-92d0-419f-870c-ae68ed52c216&language=en"}
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 08:54:00
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST: _sendGatewayData]: https://sand.sensebank.com.ua/payment/rest/getOrderStatusExtended.do
+ body: "userName=ROMA1-api&password=1&orderNumber=118_1716368016"
+ headers: []
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 08:54:00
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST gOSE]: https://sand.sensebank.com.ua/payment/rest/getOrderStatusExtended.do: Array
+(
+    [userName] => ROMA1-api
+    [password] => **removed from log**
+    [orderNumber] => 118_1716368016
+)
+
+[RESPONSE]: {"errorCode":"0","errorMessage":"Успешно","orderNumber":"118_1716368016","orderStatus":2,"actionCode":0,"actionCodeDescription":"","amount":100,"currency":"980","date":1716368033260,"ip":"91.215.70.40","merchantOrderParams":[{"name":"payerCity","value":"we14ascs"},{"name":"phone","value":"123123123"},{"name":"additionalText","value":"SUCCESSFUL TXN"},{"name":"payerFirstName","value":"we12"},{"name":"CMS","value":"Wordpress 6.5.3 + woocommerce version: 8.8.3"},{"name":"payerPostalCode","value":"12312"},{"name":"postAddress","value":"adasdasdasd"},{"name":"payerCountry","value":"UA"},{"name":"email","value":"asdsd@sassa.as"},{"name":"payerLastName","value":"qwe12xc"},{"name":"payerState","value":"UA07"}],"attributes":[{"name":"mdOrder","value":"18eefbc9-92d0-419f-870c-ae68ed52c216"}],"cardAuthInfo":{"expiration":"202812","cardholderName":"ASDASD","approvalCode":"595481","paymentSystem":"MASTERCARD","pan":"535557**6636"},"bindingInfo":{"clientId":"3a35d8f2f5d650ea670175f29b1c579c","bindingId":"931e0285-c270-4810-973f-02570a3e3734"},"authDateTime":1716368047676,"terminalId":"E0000025","authRefNum":"010685954810","paymentAmountInfo":{"paymentState":"DEPOSITED","approvedAmount":100,"depositedAmount":100,"refundedAmount":0,"feeAmount":0},"bankInfo":{"bankName":"PUBLIC JOINT STOCK COMPANY \"AL","bankCountryCode":"804","bankCountryName":"804"},"chargeback":false,"paymentWay":"CARD_BINDING"}
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 09:02:58
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+TEST PlaginData: {"WC requires at least":"","WC tested up to":"","Woo":"","Name":"","PluginURI":"","Version":"","Description":"","Author":"","AuthorURI":"","TextDomain":"","DomainPath":"","Network":false,"RequiresWP":"","RequiresPHP":"","UpdateURI":"","RequiresPlugins":"","Title":"","AuthorName":""}
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 09:02:58
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST: _sendGatewayData]: https://sand.sensebank.com.ua/payment/rest/register.do
+ body: "userName=ROMA1-api&password=1&amount=100&jsonParams=%7B%22CMS%22%3A%22Wordpress+6.5.3+%2B+woocommerce+version%3A+8.8.3%22%2C%22Module-Version%22%3A%22%22%2C%22email%22%3A%22asdsd%40sassa.as%22%2C%22phone%22%3A%22123123123%22%2C%22payerFirstName%22%3A%22we12%22%2C%22payerLastName%22%3A%22qwe12xc%22%2C%22postAddress%22%3A%22adasdasdasd%22%2C%22payerCity%22%3A%22we14ascs%22%2C%22payerState%22%3A%22UA07%22%2C%22payerPostalCode%22%3A%2212312%22%2C%22payerCountry%22%3A%22UA%22%7D&orderNumber=119_1716368578&returnUrl=http%3A%2F%2Flocalhost%2Fwordpress%2Fwc-api%2Fsensebank%3Faction%3Dresult%26order_id%3D119%26orderNumber%3D119_1716368578&clientId=3a35d8f2f5d650ea670175f29b1c579c"
+ headers: ["CMS: Wordpress 6.5.3 + woocommerce version: 8.8.3","Module-Version: "]
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 09:02:58
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST]: https://sand.sensebank.com.ua/payment/rest/register.do: 
+DATA: Array
+(
+    [userName] => ROMA1-api
+    [password] => **removed from log**
+    [amount] => 100
+    [jsonParams] => {"CMS":"Wordpress 6.5.3 + woocommerce version: 8.8.3","Module-Version":"","email":"asdsd@sassa.as","phone":"123123123","payerFirstName":"we12","payerLastName":"qwe12xc","postAddress":"adasdasdasd","payerCity":"we14ascs","payerState":"UA07","payerPostalCode":"12312","payerCountry":"UA"}
+    [orderNumber] => 119_1716368578
+    [returnUrl] => http://localhost/wordpress/wc-api/sensebank?action=result&order_id=119&orderNumber=119_1716368578
+    [clientId] => 3a35d8f2f5d650ea670175f29b1c579c
+)
+
+[RESPONSE]: {"orderId":"1ce1080f-cebb-4bae-94a5-516ecc85f6a6","formUrl":"https://sand.sensebank.com.ua/payment/merchants/sensepay/payment.html?mdOrder=1ce1080f-cebb-4bae-94a5-516ecc85f6a6&language=en"}
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 09:03:30
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST: _sendGatewayData]: https://sand.sensebank.com.ua/payment/rest/getOrderStatusExtended.do
+ body: "userName=ROMA1-api&password=1&orderNumber=119_1716368578"
+ headers: []
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 09:03:30
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST gOSE]: https://sand.sensebank.com.ua/payment/rest/getOrderStatusExtended.do: Array
+(
+    [userName] => ROMA1-api
+    [password] => **removed from log**
+    [orderNumber] => 119_1716368578
+)
+
+[RESPONSE]: {"errorCode":"0","errorMessage":"Успешно","orderNumber":"119_1716368578","orderStatus":2,"actionCode":0,"actionCodeDescription":"","amount":100,"currency":"980","date":1716368595457,"ip":"91.215.70.40","merchantOrderParams":[{"name":"payerCity","value":"we14ascs"},{"name":"phone","value":"123123123"},{"name":"additionalText","value":"SUCCESSFUL TXN"},{"name":"payerFirstName","value":"we12"},{"name":"CMS","value":"Wordpress 6.5.3 + woocommerce version: 8.8.3"},{"name":"payerPostalCode","value":"12312"},{"name":"postAddress","value":"adasdasdasd"},{"name":"payerCountry","value":"UA"},{"name":"email","value":"asdsd@sassa.as"},{"name":"payerLastName","value":"qwe12xc"},{"name":"payerState","value":"UA07"}],"attributes":[{"name":"mdOrder","value":"1ce1080f-cebb-4bae-94a5-516ecc85f6a6"}],"cardAuthInfo":{"expiration":"202812","cardholderName":"ASDASD","approvalCode":"595483","paymentSystem":"MASTERCARD","pan":"535557**6636"},"bindingInfo":{"clientId":"3a35d8f2f5d650ea670175f29b1c579c","bindingId":"931e0285-c270-4810-973f-02570a3e3734"},"authDateTime":1716368612382,"terminalId":"E0000025","authRefNum":"010685954830","paymentAmountInfo":{"paymentState":"DEPOSITED","approvedAmount":100,"depositedAmount":100,"refundedAmount":0,"feeAmount":0},"bankInfo":{"bankName":"PUBLIC JOINT STOCK COMPANY \"AL","bankCountryCode":"804","bankCountryName":"804"},"chargeback":false,"paymentWay":"CARD_BINDING"}
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 09:05:35
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST: _sendGatewayData]: https://sand.sensebank.com.ua/payment/rest/register.do
+ body: "userName=ROMA1-api&password=1&amount=100&jsonParams=%7B%22CMS%22%3A%22Wordpress+6.5.3+%2B+woocommerce+version%3A+8.8.3%22%2C%22Module-Version%22%3A%22%22%2C%22email%22%3A%22asdsd%40sassa.as%22%2C%22phone%22%3A%22123123123%22%2C%22payerFirstName%22%3A%22we12%22%2C%22payerLastName%22%3A%22qwe12xc%22%2C%22postAddress%22%3A%22adasdasdasd%22%2C%22payerCity%22%3A%22we14ascs%22%2C%22payerState%22%3A%22UA07%22%2C%22payerPostalCode%22%3A%2212312%22%2C%22payerCountry%22%3A%22UA%22%7D&orderNumber=120_1716368735&returnUrl=http%3A%2F%2Flocalhost%2Fwordpress%2Fwc-api%2Fsensebank%3Faction%3Dresult%26order_id%3D120%26orderNumber%3D120_1716368735&clientId=3a35d8f2f5d650ea670175f29b1c579c"
+ headers: ["CMS: Wordpress 6.5.3 + woocommerce version: 8.8.3","Module-Version: "]
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 09:05:35
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+[REQUEST]: https://sand.sensebank.com.ua/payment/rest/register.do: 
+DATA: Array
+(
+    [userName] => ROMA1-api
+    [password] => **removed from log**
+    [amount] => 100
+    [jsonParams] => {"CMS":"Wordpress 6.5.3 + woocommerce version: 8.8.3","Module-Version":"","email":"asdsd@sassa.as","phone":"123123123","payerFirstName":"we12","payerLastName":"qwe12xc","postAddress":"adasdasdasd","payerCity":"we14ascs","payerState":"UA07","payerPostalCode":"12312","payerCountry":"UA"}
+    [orderNumber] => 120_1716368735
+    [returnUrl] => http://localhost/wordpress/wc-api/sensebank?action=result&order_id=120&orderNumber=120_1716368735
+    [clientId] => 3a35d8f2f5d650ea670175f29b1c579c
+)
+
+[RESPONSE]: {"orderId":"a0e5530e-ee40-4b5c-b378-e5b25f103a83","formUrl":"https://sand.sensebank.com.ua/payment/merchants/sensepay/payment.html?mdOrder=a0e5530e-ee40-4b5c-b378-e5b25f103a83&language=en"}
+
+
+
+-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=
+Date: 2024-05-22 09:06:44
+Wordpress version 6.5.3; Woocommerce version: 8.8.3
+Nothing to update: 318
+
